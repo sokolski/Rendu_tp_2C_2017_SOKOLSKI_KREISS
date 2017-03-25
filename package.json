@@ -2,31 +2,29 @@
   "name": "tp_js_deadpool",
   "version": "1.0.0",
   "main": "index.js",
+  "repository":"https://github.com/sokolski/Rendu_tp_2C_2017_SOKOLSKI_KREISS/tree/master.git",
+  "license": "MIT",
   "scripts": {
-    "start": "index.js",
-    "build": "build",
-    "test": "test --env=jsdom",
-    "eject": "eject"
+    "start": "node index.js"
   },
 
   "xo": {
-    " esnext ": true,
-    " envs ": [
-      " node ",
-      " mocha "
+    "esnext": true,
+    "envs": [
+      "node",
+      "mocha"
     ],
-    " space ": 2,
+    "space": 2,
     " rules ": {
-      "max - len ": [
-        " error ",
+      "max - len": [
+        "error",
         80,
         2
       ]
     },
     " ignores ": [
-      " Gruntfile .js"
+      "Gruntfile.js"
     ]
   }
 
 }
-
