@@ -1,0 +1,35 @@
+{
+  "name": "tp_js_deadpool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sokolski/Rendu_tp_2C_2017_SOKOLSKI_KREISS.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "mocha"
+    ],
+    "space": 2,
+    " rules ": {
+      "max - len": [
+        "error",
+        80,
+        2
+      ]
+    },
+    " ignores ": [
+      "Gruntfile.js"
+    ]
+  },
+  "dependencies": {
+    "global": "^4.3.1",
+    "xo": "^0.18.0"
+  },
+  "devDependencies": {
+    "xo": "^0.18.0"
+  }
+}
