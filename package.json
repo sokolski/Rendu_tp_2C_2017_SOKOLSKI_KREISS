@@ -1,0 +1,32 @@
+{
+  "name": "tp_js_deadpool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js",
+    "build": "build",
+    "test": "test --env=jsdom",
+    "eject": "eject"
+  },
+
+  "xo": {
+    " esnext ": true,
+    " envs ": [
+      " node ",
+      " mocha "
+    ],
+    " space ": 2,
+    " rules ": {
+      "max - len ": [
+        " error ",
+        80,
+        2
+      ]
+    },
+    " ignores ": [
+      " Gruntfile .js"
+    ]
+  }
+
+}
+
